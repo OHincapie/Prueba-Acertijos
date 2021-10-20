@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="css/normalize.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preload" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Acertijo</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1><span>¿</span>Cuantas gallinas y conejos hay<span>?</span></h1>
+    </header>
+    <section class="fondo">
+        <div class="sub-fondo">
+
+            <h2>Introduce numero de patas y cabezas</h2>
+            <div class="contenedor">
+                
+                <p>Recuerda que el numero de cabezas debe ser menor al de patas <br> </p>
+                <p>Se inician con los valores iniciales 35 cabezas y 94 patas</p>
+
+                <div class="contenido">
+                    <div class="datos">
+                        <div class="campo">
+                            <label for="cabezas">Numero de cabezas</label>
+                            <input type="number" id="cabezas" placeholder="Cabezas" min="1" value="35">
+                        </div>
+                        <div class="campo">
+                            <label for="patas">Numero de patas</label>
+                            <input type="number" id="patas" placeholder="Patas" min="1" value="94">
+                        </div>
+                        <button id="validar">Validar</button>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+    <script src="./ejercicio2.js"></script>
+</body>
+
+</html>
